@@ -3,9 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{67B536E5-D73E-4FA3-8329-6E96BAAA1AB9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "Services\Catalog.API\Catalog.API.csproj", "{376EFE38-9096-4ACB-8CD5-1236C1CD557A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Busket.API", "Services\Busket.API\Busket.API.csproj", "{EC83DC5F-1E65-44BC-830C-43416C0BC2CF}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{376EFE38-9096-4ACB-8CD5-1236C1CD557A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{376EFE38-9096-4ACB-8CD5-1236C1CD557A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{376EFE38-9096-4ACB-8CD5-1236C1CD557A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{376EFE38-9096-4ACB-8CD5-1236C1CD557A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC83DC5F-1E65-44BC-830C-43416C0BC2CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC83DC5F-1E65-44BC-830C-43416C0BC2CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC83DC5F-1E65-44BC-830C-43416C0BC2CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC83DC5F-1E65-44BC-830C-43416C0BC2CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{376EFE38-9096-4ACB-8CD5-1236C1CD557A} = {67B536E5-D73E-4FA3-8329-6E96BAAA1AB9}
+		{EC83DC5F-1E65-44BC-830C-43416C0BC2CF} = {67B536E5-D73E-4FA3-8329-6E96BAAA1AB9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C7908022-A1DA-43E8-8074-4903A5F76D0C}
