@@ -52,7 +52,9 @@ namespace Discount.gRPC.Repository
                 return new Coupon()
                 {
                     Amount = 0,
+                    ProductId = "No discount",
                     ProductName = "No discount",
+                    Description = "No discount",
                 };
             }
             return coupon;
